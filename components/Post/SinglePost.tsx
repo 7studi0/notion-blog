@@ -17,7 +17,7 @@ const SinglePost = (props: Props) => {
     <>
       <section
         className={`${
-          isPaginationPage ? 'mb-4' : 'lg:w-1/2 mb-8'
+          isPaginationPage ? 'mb-4' : 'mb-8'
         } mx-auto rounded-md p-5 bg-gray-50 hover:bg-gray-100 shadow-lg transform hover:-translate-y-1 transition duration-300`}
       >
         <div className="flex items-center justify-between mb-4">

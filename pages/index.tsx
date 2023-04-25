@@ -45,7 +45,7 @@ const Home = ({ fourPosts, allTags }) => {
         </section>
         <Link
           href="/posts/page/1"
-          className="block text-center font-medium text-white bg-sky-900 py-3 px-6 rounded-md mt-8 mb-10 mx-auto max-w-xs lg:max-w-none"
+          className="block text-center font-medium text-white bg-sky-900 py-3 px-6 rounded-md mt-8 mb-10 mx-auto max-w-xs"
         >
           もっと見る
         </Link>
