@@ -34,7 +34,7 @@ const BlogPageList = ({ postsByPage, numberOfPage, allTags }: Props) => {
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
         <h1 className="text-5xl font-medium text-center mb-16">Sample Blog</h1>
-        <section className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <section className="sm:grid grid-cols-2 w-5/6 gap-3 mx-auto">
           {postsByPage.map(post => (
             <div key={post.id}>
               <SinglePost
