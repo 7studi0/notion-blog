@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f3f3f3;
+}
+
+img {
+  @apply w-full h-72 object-cover mx-auto;
+}
+
+h2 {
+  @apply text-2xl font-medium;
+}
+
+h3 {
+  @apply text-lg font-medium;
+}
+
+p {
+  @apply my-2 font-normal;
+}
